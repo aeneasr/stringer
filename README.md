@@ -3,6 +3,7 @@
 [![Build Status](http://img.shields.io/travis/swanson/stringer.svg?style=flat)](https://travis-ci.org/swanson/stringer)
 [![Code Climate](http://img.shields.io/codeclimate/github/swanson/stringer.svg?style=flat)](https://codeclimate.com/github/swanson/stringer)
 [![Coverage Status](http://img.shields.io/coveralls/swanson/stringer.svg?style=flat)](https://coveralls.io/r/swanson/stringer)
+[![Deploy stringer via gitdeploy.io](https://img.shields.io/badge/gitdeploy.io-deploy%20stringer/master-green.svg)](https://www.gitdeploy.io/deploy?repository=https%3A%2F%2Fgithub.com%2Fswanson%2Fstringer.git)
 
 ### A self-hosted, anti-social RSS reader.
 
@@ -17,6 +18,14 @@ But it does have keyboard shortcuts and was made with love!
 ## Installation
 
 Stringer is a Ruby (2.0.0+) app based on Sinatra, ActiveRecord, PostgreSQL, Backbone.js and DelayedJob.
+
+### Gitdeploy
+
+[![Deploy stringer via gitdeploy.io](https://img.shields.io/badge/gitdeploy.io-deploy%20stringer/master-green.svg)](https://www.gitdeploy.io/deploy?repository=https%3A%2F%2Fgithub.com%2Fswanson%2Fstringer.git)
+
+You can test Stringer by deploying it to [Gitdeploy.io](https://www.gitdeploy.io) for free.
+
+### Heroku
 
 [![Deploy to Heroku](https://cdn.herokuapp.com/deploy/button.svg)](https://heroku.com/deploy)
 
@@ -110,7 +119,7 @@ foreman start
 
 The application will be running on port `5000`.
 
-You can launch an interactive console (ala `rails c`) using `racksh`.
+You can launch ahern interactive console (ala `rails c`) using `racksh`.
 
 ## Acknowledgements
 
